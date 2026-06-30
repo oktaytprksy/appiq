@@ -1,0 +1,131 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - navigation [ref=f11e3]:
+      - generic [ref=f11e4]:
+        - link "AppIQ Development AppIQ" [ref=f11e5] [cursor=pointer]:
+          - /url: /
+          - img "AppIQ Development" [ref=f11e6]
+          - generic [ref=f11e7]: AppIQ
+        - generic [ref=f11e8]:
+          - link "ANASAYFA" [ref=f11e9] [cursor=pointer]:
+            - /url: /
+          - link "HİZMETLER" [ref=f11e10] [cursor=pointer]:
+            - /url: /hizmetler
+          - link "REFERANSLAR" [ref=f11e11] [cursor=pointer]:
+            - /url: /hizmetler#projeler
+          - link "HAKKIMIZDA" [ref=f11e12] [cursor=pointer]:
+            - /url: /#neden-biz
+          - link "İLETİŞİM" [ref=f11e13] [cursor=pointer]:
+            - /url: /iletisim
+        - link "TEKLİF AL" [ref=f11e15] [cursor=pointer]:
+          - /url: /iletisim
+    - main [ref=f11e16]:
+      - generic [ref=f11e19]:
+        - generic [ref=f11e20]:
+          - text: İletişim
+          - heading "Projenizi Konuşalım." [level=1] [ref=f11e21]:
+            - text: Projenizi
+            - text: Konuşalım.
+          - paragraph [ref=f11e22]: Aklınızdaki fikri anlatın. Size en uygun çözümü, süreyi ve yaklaşık maliyeti birlikte netleştirelim.
+          - generic [ref=f11e23]:
+            - generic [ref=f11e24]:
+              - generic [ref=f11e25]: E-posta
+              - generic [ref=f11e26]: appiq.development@gmail.com
+            - generic [ref=f11e27]:
+              - generic [ref=f11e28]: Yanıt süresi
+              - generic [ref=f11e29]: 24 saat içinde
+            - generic [ref=f11e30]:
+              - generic [ref=f11e31]: İlk görüşme
+              - generic [ref=f11e32]: Ücretsiz · taahhüt yok
+        - generic [ref=f11e34]:
+          - generic [ref=f11e35]:
+            - generic [ref=f11e36]:
+              - generic [ref=f11e37]: Ad Soyad *
+              - textbox "Ad Soyad *" [ref=f11e38]:
+                - /placeholder: Adınız
+            - generic [ref=f11e39]:
+              - generic [ref=f11e40]: E-posta *
+              - textbox "E-posta *" [ref=f11e41]:
+                - /placeholder: ornek@firma.com
+          - generic [ref=f11e42]:
+            - generic [ref=f11e43]: Şirket
+            - textbox "Şirket" [ref=f11e44]:
+              - /placeholder: Firma adı (opsiyonel)
+          - generic [ref=f11e45]:
+            - generic [ref=f11e46]:
+              - generic [ref=f11e47]: Hizmet
+              - button "Seçiniz ▾" [ref=f11e49]:
+                - text: Seçiniz
+                - generic [ref=f11e50]: ▾
+            - generic [ref=f11e51]:
+              - generic [ref=f11e52]: Bütçe
+              - button "Seçiniz ▾" [ref=f11e54]:
+                - text: Seçiniz
+                - generic [ref=f11e55]: ▾
+          - generic [ref=f11e56]:
+            - generic [ref=f11e57]: Proje Detayı *
+            - textbox "Proje Detayı *" [ref=f11e58]:
+              - /placeholder: Projenizden kısaca bahsedin — ne yapmak istiyorsunuz, hedef kitle, zaman planı...
+          - button "Talebi Gönder" [ref=f11e59]
+    - contentinfo [ref=f11e60]:
+      - generic [ref=f11e61]:
+        - generic [ref=f11e62]:
+          - generic [ref=f11e63]:
+            - img "AppIQ Development" [ref=f11e64]
+            - generic [ref=f11e65]: AppIQ
+          - generic [ref=f11e66]:
+            - generic [ref=f11e67]: Projeniz mi var?
+            - link "Hadi Konuşalım" [ref=f11e68] [cursor=pointer]:
+              - /url: /iletisim
+        - generic [ref=f11e69]:
+          - generic [ref=f11e70]:
+            - generic [ref=f11e71]: Hizmetler
+            - list [ref=f11e72]:
+              - listitem [ref=f11e73]:
+                - link "Web" [ref=f11e74] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f11e75]:
+                - link "Mobil" [ref=f11e76] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f11e77]:
+                - link "Yapay Zeka" [ref=f11e78] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f11e79]:
+                - link "Tasarım" [ref=f11e80] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f11e81]:
+            - generic [ref=f11e82]: Sosyal
+            - list [ref=f11e83]:
+              - listitem [ref=f11e84]:
+                - link "Twitter" [ref=f11e85] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f11e86]:
+                - link "LinkedIn" [ref=f11e87] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f11e88]:
+                - link "Instagram" [ref=f11e89] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f11e90]:
+                - link "GitHub" [ref=f11e91] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f11e92]:
+            - generic [ref=f11e93]: Yasal
+            - list [ref=f11e94]:
+              - listitem [ref=f11e95]:
+                - link "Gizlilik" [ref=f11e96] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f11e97]:
+                - link "Şartlar" [ref=f11e98] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f11e99]:
+                - link "Çerezler" [ref=f11e100] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f11e101]:
+                - link "İletişim" [ref=f11e102] [cursor=pointer]:
+                  - /url: "#"
+        - generic [ref=f11e103]:
+          - generic [ref=f11e104]: © 2026 AppIQ Development. Tüm hakları saklıdır.
+          - generic [ref=f11e105]: Sevgiyle kodlandı
+  - button "Open Next.js Dev Tools" [ref=f11e111] [cursor=pointer]:
+    - img [ref=f11e112]
+  - alert [ref=f11e115]

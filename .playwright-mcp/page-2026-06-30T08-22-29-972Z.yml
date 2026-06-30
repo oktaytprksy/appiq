@@ -1,0 +1,161 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - navigation [ref=f4e3]:
+      - generic [ref=f4e4]:
+        - link "AppIQ Development AppIQ" [ref=f4e5]:
+          - /url: /
+          - img "AppIQ Development" [ref=f4e6]
+          - generic [ref=f4e7]: AppIQ
+        - generic [ref=f4e8]:
+          - link "ANASAYFA" [ref=f4e9]:
+            - /url: /
+          - link "HİZMETLER" [ref=f4e10]:
+            - /url: /hizmetler
+          - link "HAKKIMIZDA" [ref=f4e11]:
+            - /url: /hakkimizda
+          - link "İLETİŞİM" [ref=f4e12]:
+            - /url: /iletisim
+        - link "TEKLİF AL" [ref=f4e14]:
+          - /url: /iletisim
+    - main [ref=f4e15]:
+      - generic [ref=f4e17]:
+        - link "← Tüm Projeler" [ref=f4e18]:
+          - /url: /hizmetler#projeler
+        - generic [ref=f4e20]: Finova
+      - generic [ref=f4e23]:
+        - generic [ref=f4e24]:
+          - text: Mobil · Fintech
+          - heading "Finova" [level=1] [ref=f4e25]
+          - paragraph [ref=f4e26]: Yeni nesil bir dijital cüzdan. Anlık transfer, kart yönetimi ve harcama analizi tek uygulamada.
+        - generic [ref=f4e28]:
+          - generic [ref=f4e29]:
+            - generic [ref=f4e30]: Müşteri
+            - generic [ref=f4e31]: Gizli (NDA)
+          - generic [ref=f4e32]:
+            - generic [ref=f4e33]: Süre
+            - generic [ref=f4e34]: 4 ay
+          - generic [ref=f4e35]:
+            - generic [ref=f4e36]: Rol
+            - generic [ref=f4e37]: Tasarım & Geliştirme
+          - generic [ref=f4e38]:
+            - generic [ref=f4e39]: Yıl
+            - generic [ref=f4e40]: "2025"
+      - generic [ref=f4e42]:
+        - heading "Genel Bakış" [level=2] [ref=f4e43]
+        - paragraph [ref=f4e44]: "Projeye keşif aşamasıyla başladık: hedefleri, kullanıcıları ve teknik kısıtları netleştirdik. Ardından tıklanabilir prototipten üretime kadar kısa döngülerle ilerledik. Sonuçta hızlı, ölçeklenebilir ve bakımı kolay bir ürün teslim ettik."
+      - generic [ref=f4e46]:
+        - generic [ref=f4e47]:
+          - heading "Zorluk" [level=2] [ref=f4e48]
+          - paragraph [ref=f4e49]: Mevcut süreç dağınıktı; birden fazla araç, manuel adımlar ve ölçeklenmeyen bir altyapı vardı. Ekibin asıl işine odaklanması için tüm akışı tek bir üründe toplamak gerekiyordu.
+        - generic [ref=f4e50]:
+          - heading "Çözüm" [level=2] [ref=f4e51]
+          - paragraph [ref=f4e52]: Modüler bir mimari kurduk, kritik akışları otomatikleştirdik ve performansı baştan önceliklendirdik. Tasarım sistemi sayesinde arayüz tutarlı, geliştirme hızlı ve sonraki sürümler öngörülebilir oldu.
+      - generic [ref=f4e54]:
+        - heading "Öne Çıkan Özellikler" [level=2] [ref=f4e55]
+        - generic [ref=f4e56]:
+          - generic [ref=f4e57]:
+            - generic [ref=f4e58]: "01"
+            - heading "Uçtan Uca Akış" [level=3] [ref=f4e59]
+            - paragraph [ref=f4e60]: Kullanıcı yolculuğunun tamamı tek üründe, kesintisiz.
+          - generic [ref=f4e61]:
+            - generic [ref=f4e62]: "02"
+            - heading "Gerçek Zamanlı Veri" [level=3] [ref=f4e63]
+            - paragraph [ref=f4e64]: Anlık güncellemeler ve canlı durum takibi.
+          - generic [ref=f4e65]:
+            - generic [ref=f4e66]: "03"
+            - heading "Ölçeklenebilir Altyapı" [level=3] [ref=f4e67]
+            - paragraph [ref=f4e68]: Artan yük altında otomatik ölçeklenen bulut mimarisi.
+          - generic [ref=f4e69]:
+            - generic [ref=f4e70]: "04"
+            - heading "Rol Bazlı Erişim" [level=3] [ref=f4e71]
+            - paragraph [ref=f4e72]: Granüler yetkilendirme ve güvenli oturum yönetimi.
+          - generic [ref=f4e73]:
+            - generic [ref=f4e74]: "05"
+            - heading "Analitik & Raporlama" [level=3] [ref=f4e75]
+            - paragraph [ref=f4e76]: Kararları destekleyen panolar ve dışa aktarım.
+          - generic [ref=f4e77]:
+            - generic [ref=f4e78]: "06"
+            - heading "Mobil Uyumlu" [level=3] [ref=f4e79]
+            - paragraph [ref=f4e80]: Her ekran boyutunda akıcı, erişilebilir deneyim.
+      - generic [ref=f4e82]:
+        - generic [ref=f4e83]:
+          - heading "Teknolojiler" [level=2] [ref=f4e84]
+          - generic [ref=f4e85]:
+            - generic [ref=f4e86]: React Native
+            - generic [ref=f4e87]: Node.js
+            - generic [ref=f4e88]: PostgreSQL
+        - generic [ref=f4e89]:
+          - heading "Sonuçlar" [level=2] [ref=f4e90]
+          - generic [ref=f4e91]:
+            - generic [ref=f4e92]:
+              - generic [ref=f4e93]: "%40"
+              - generic [ref=f4e94]: Daha hızlı süreç
+            - generic [ref=f4e95]:
+              - generic [ref=f4e96]: 3x
+              - generic [ref=f4e97]: Kullanıcı etkileşimi
+            - generic [ref=f4e98]:
+              - generic [ref=f4e99]: "%99.9"
+              - generic [ref=f4e100]: Çalışma süresi
+      - link "Sonraki Proje Meditrack →" [ref=f4e103]:
+        - /url: /projeler/meditrack
+        - text: Sonraki Proje
+        - generic [ref=f4e104]:
+          - generic [ref=f4e105]: Meditrack
+          - generic [ref=f4e106]: →
+      - generic [ref=f4e108]:
+        - heading "Benzer bir proje mi düşünüyorsun?" [level=2] [ref=f4e109]:
+          - text: Benzer bir proje mi
+          - text: düşünüyorsun?
+        - paragraph [ref=f4e110]: Fikrini konuşalım. İlk görüşme ücretsiz, taahhüt yok.
+        - link "Hadi Konuşalım" [ref=f4e111]:
+          - /url: /iletisim
+    - contentinfo [ref=f4e112]:
+      - generic [ref=f4e113]:
+        - generic [ref=f4e114]:
+          - generic [ref=f4e115]:
+            - img "AppIQ Development" [ref=f4e116]
+            - generic [ref=f4e117]: AppIQ
+          - generic [ref=f4e118]:
+            - generic [ref=f4e119]: Projeniz mi var?
+            - link "Hadi Konuşalım" [ref=f4e120]:
+              - /url: /iletisim
+        - generic [ref=f4e121]:
+          - generic [ref=f4e122]:
+            - generic [ref=f4e123]: Hizmetler
+            - list [ref=f4e124]:
+              - listitem [ref=f4e125]:
+                - link "Web" [ref=f4e126]:
+                  - /url: /hizmetler
+              - listitem [ref=f4e127]:
+                - link "Mobil" [ref=f4e128]:
+                  - /url: /hizmetler
+              - listitem [ref=f4e129]:
+                - link "Yapay Zeka" [ref=f4e130]:
+                  - /url: /hizmetler
+              - listitem [ref=f4e131]:
+                - link "Tasarım" [ref=f4e132]:
+                  - /url: /hizmetler
+          - generic [ref=f4e133]:
+            - generic [ref=f4e134]: Sosyal
+            - list [ref=f4e135]:
+              - listitem [ref=f4e136]:
+                - link "Instagram" [ref=f4e137]:
+                  - /url: "#"
+              - listitem [ref=f4e138]:
+                - link "LinkedIn" [ref=f4e139]:
+                  - /url: "#"
+          - generic [ref=f4e140]:
+            - generic [ref=f4e141]: Yasal
+            - list [ref=f4e142]:
+              - listitem [ref=f4e143]:
+                - link "Gizlilik" [ref=f4e144]:
+                  - /url: /gizlilik
+              - listitem [ref=f4e145]:
+                - link "İletişim" [ref=f4e146]:
+                  - /url: /iletisim
+        - generic [ref=f4e147]:
+          - generic [ref=f4e148]: © 2026 AppIQ Development. Tüm hakları saklıdır.
+          - generic [ref=f4e149]: Sevgiyle kodlandı
+  - button "Open Next.js Dev Tools" [ref=f4e155] [cursor=pointer]:
+    - img [ref=f4e156]
+  - alert [ref=f4e159]

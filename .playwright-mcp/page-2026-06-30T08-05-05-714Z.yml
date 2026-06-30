@@ -1,0 +1,289 @@
+- generic [active] [ref=f23e1]:
+  - generic [ref=f23e2]:
+    - navigation [ref=f23e3]:
+      - generic [ref=f23e4]:
+        - link "AppIQ Development AppIQ" [ref=f23e5]:
+          - /url: /
+          - img "AppIQ Development" [ref=f23e6]
+          - generic [ref=f23e7]: AppIQ
+        - generic [ref=f23e8]:
+          - link "ANASAYFA" [ref=f23e9]:
+            - /url: /
+          - link "HİZMETLER" [ref=f23e10]:
+            - /url: /hizmetler
+          - link "HAKKIMIZDA" [ref=f23e11]:
+            - /url: /hakkimizda
+          - link "İLETİŞİM" [ref=f23e12]:
+            - /url: /iletisim
+        - link "TEKLİF AL" [ref=f23e14]:
+          - /url: /iletisim
+    - main [ref=f23e15]:
+      - generic [ref=f23e19]:
+        - generic [ref=f23e20]: Özel Yazılım Geliştirme Ajansı
+        - heading "DİJİTAL ÜRÜNLER İNŞA EDERİZ" [level=1] [ref=f23e21]:
+          - generic [ref=f23e22]: DİJİTAL
+          - generic [ref=f23e23]: ÜRÜNLER
+          - generic [ref=f23e24]: İNŞA EDERİZ
+        - generic [ref=f23e25]:
+          - paragraph [ref=f23e26]:
+            - text: Başkaları size sadece kod verir.
+            - text: Biz fikirden lansmana kadar tasarlar, geliştirir ve büyütürüz.
+          - generic [ref=f23e27]:
+            - generic [ref=f23e28]:
+              - generic [ref=f23e29]: Manifesto
+              - generic [ref=f23e30]: /kok/manifesto.md
+            - generic [ref=f23e31]:
+              - paragraph [ref=f23e32]:
+                - generic [ref=f23e33]: "01"
+                - generic [ref=f23e34]: İyi yazılım işinizi yavaşlatmamalı.
+              - paragraph [ref=f23e35]:
+                - generic [ref=f23e36]: "02"
+                - generic [ref=f23e37]: Hızlı çalışmalı — ölçeklenen, bakımı kolay ve sizinle birlikte büyüyen sistemler.
+              - paragraph [ref=f23e38]:
+                - generic [ref=f23e39]: "03"
+                - generic [ref=f23e40]: İşte biz bunu inşa ediyoruz.
+            - generic [ref=f23e41]:
+              - generic [ref=f23e42]:
+                - generic [ref=f23e43]: "01"
+                - generic [ref=f23e44]: Karmaşa Yok
+              - generic [ref=f23e45]:
+                - generic [ref=f23e46]: "02"
+                - generic [ref=f23e47]: Sürpriz Maliyet Yok
+              - generic [ref=f23e48]:
+                - generic [ref=f23e49]: "03"
+                - generic [ref=f23e50]: Sadece Sonuç
+      - generic [ref=f23e53]:
+        - generic [ref=f23e54]:
+          - text: Neler Yapıyoruz
+          - heading "Tek Ekip. Tüm Çözümler." [level=2] [ref=f23e55]:
+            - text: Tek Ekip.
+            - text: Tüm Çözümler.
+          - paragraph [ref=f23e56]: Web, mobil, yapay zeka, tasarım ve altyapı. Onlarca tedarikçiyle uğraşmayın — fikirden canlı ürüne kadar her şeyi tek bir ekip üstlenir.
+        - generic [ref=f23e57]:
+          - generic [ref=f23e58]:
+            - generic [ref=f23e59]:
+              - generic [ref=f23e60]: /01
+              - generic [ref=f23e61]: WEB UYGULAMALARI
+              - heading "WEB" [level=3] [ref=f23e62]
+              - paragraph [ref=f23e63]: Next.js, React ve modern altyapılarla hızlı, ölçeklenebilir web uygulamaları geliştiriyoruz. Tasarımdan canlıya kadar uçtan uca tek ekip.
+            - generic [ref=f23e64]:
+              - generic [ref=f23e65]:
+                - generic [ref=f23e66]:
+                  - generic [ref=f23e67]: Proje
+                  - generic [ref=f23e68]: Kurumsal panel — v2
+                - generic [ref=f23e69]: Yayında
+              - generic [ref=f23e70]:
+                - generic [ref=f23e71]:
+                  - generic [ref=f23e72]: Proje
+                  - generic [ref=f23e73]: E-ticaret platformu
+                - generic [ref=f23e74]: Geliştiriliyor
+              - generic [ref=f23e75]:
+                - generic [ref=f23e76]:
+                  - generic [ref=f23e77]: Proje
+                  - generic [ref=f23e78]: Rezervasyon sistemi
+                - generic [ref=f23e79]: Test
+              - generic [ref=f23e80]:
+                - generic [ref=f23e81]: "%99.9 uptime"
+                - generic [ref=f23e82]: "Core Web Vitals: Yeşil"
+          - generic [ref=f23e83]:
+            - generic [ref=f23e84]:
+              - generic [ref=f23e85]: /02
+              - generic [ref=f23e86]: MOBİL UYGULAMALAR
+              - heading "MOBİL" [level=3] [ref=f23e87]
+              - paragraph [ref=f23e88]: iOS ve Android için native performansında uygulamalar. Tek kod tabanı, iki platform, mağazaya hazır teslim. Push, ödeme, çevrimdışı — hepsi dahil.
+            - generic [ref=f23e89]:
+              - generic [ref=f23e90]:
+                - generic [ref=f23e91]:
+                  - generic [ref=f23e92]: iOS
+                  - generic [ref=f23e93]: App Store sürümü 3.1
+                - generic [ref=f23e94]: Onayda
+              - generic [ref=f23e95]:
+                - generic [ref=f23e96]:
+                  - generic [ref=f23e97]: Android
+                  - generic [ref=f23e98]: Play Store sürümü 3.1
+                - generic [ref=f23e99]: Yayında
+              - generic [ref=f23e100]:
+                - generic [ref=f23e101]:
+                  - generic [ref=f23e102]: Sürüm
+                  - generic [ref=f23e103]: Çevrimdışı senkron
+                - generic [ref=f23e104]: Tamamlandı
+              - generic [ref=f23e105]: → 4.8 ★ kullanıcı puanı
+          - generic [ref=f23e106]:
+            - generic [ref=f23e107]:
+              - generic [ref=f23e108]: /03
+              - generic [ref=f23e109]: YAPAY ZEKA ÇÖZÜMLERİ
+              - heading "YAPAY ZEKA" [level=3] [ref=f23e110]
+              - paragraph [ref=f23e111]: LLM entegrasyonları, görüntü işleme, öneri sistemleri ve otonom ajanlar. İş süreçlerinize gerçekten değer katan, üretime hazır AI çözümleri kuruyoruz.
+            - generic [ref=f23e112]:
+              - generic [ref=f23e113]: "Model: Aktif"
+              - generic [ref=f23e114]:
+                - generic [ref=f23e115]:
+                  - generic [ref=f23e116]: ✓
+                  - generic [ref=f23e117]: Belge analiz ajanı
+                - generic [ref=f23e118]: Üretimde
+              - generic [ref=f23e119]:
+                - generic [ref=f23e120]:
+                  - generic [ref=f23e121]: ✓
+                  - generic [ref=f23e122]: Görüntü sınıflandırma
+                - generic [ref=f23e123]: Üretimde
+              - generic [ref=f23e124]:
+                - generic [ref=f23e125]:
+                  - generic [ref=f23e126]: ⟳
+                  - generic [ref=f23e127]: Öneri motoru
+                - generic [ref=f23e128]: Eğitiliyor
+          - generic [ref=f23e129]:
+            - generic [ref=f23e130]:
+              - generic [ref=f23e131]: /04
+              - generic [ref=f23e132]: ÜRÜN & ARAYÜZ TASARIMI
+              - heading "TASARIM" [level=3] [ref=f23e133]
+              - paragraph [ref=f23e134]: Kullanıcı araştırması, akış tasarımı, prototipleme ve tasarım sistemi. Sadece güzel değil; dönüşüm getiren, kullanması kolay arayüzler tasarlıyoruz.
+            - generic [ref=f23e135]:
+              - generic [ref=f23e136]:
+                - generic [ref=f23e137]:
+                  - generic [ref=f23e138]: UX
+                  - generic [ref=f23e139]: Kullanıcı akışları
+                - generic [ref=f23e140]: Onaylandı
+              - generic [ref=f23e141]:
+                - generic [ref=f23e142]:
+                  - generic [ref=f23e143]: UI
+                  - generic [ref=f23e144]: Tasarım sistemi
+                - generic [ref=f23e145]: Hazır
+              - generic [ref=f23e146]:
+                - generic [ref=f23e147]:
+                  - generic [ref=f23e148]: Prototip
+                  - generic [ref=f23e149]: Figma → kod
+                - generic [ref=f23e150]: Devam ediyor
+              - generic [ref=f23e151]: Dönüşümde +%34 artış
+          - generic [ref=f23e152]:
+            - generic [ref=f23e153]:
+              - generic [ref=f23e154]: /05
+              - generic [ref=f23e155]: BULUT & DEVOPS
+              - heading "ALTYAPI" [level=3] [ref=f23e156]
+              - paragraph [ref=f23e157]: AWS, GCP ve Kubernetes üzerinde otomatik dağıtım, izleme ve ölçeklendirme. Sisteminiz gece yarısı bile sorunsuz çalışsın diye altyapıyı biz kuruyoruz.
+            - generic [ref=f23e159]:
+              - generic [ref=f23e160]: CI/CD pipeline
+              - generic [ref=f23e161]: Otomatik ölçekleme
+              - generic [ref=f23e162]: 7/24 izleme
+              - generic [ref=f23e163]: Yedekleme
+          - generic [ref=f23e164]:
+            - generic [ref=f23e165]:
+              - generic [ref=f23e166]: /06
+              - generic [ref=f23e167]: BAKIM & SÜREKLİ GELİŞTİRME
+              - heading "DESTEK" [level=3] [ref=f23e168]
+              - paragraph [ref=f23e169]: Teslim bitiş değil, başlangıçtır. Düzenli sürümler, hata takibi ve doğrudan iletişim. Bir mesaj kadar yakınız — ürününüz sizinle büyümeye devam eder.
+            - generic [ref=f23e171]:
+              - generic [ref=f23e172]: Ödeme ekranında bir hata var, bakabilir misiniz?
+              - generic [ref=f23e173]:
+                - generic [ref=f23e174]: Ekip
+                - text: Tespit ettik — kur dönüşümünde bir kenar durumdu. Düzeltme yayında, 12 dk içinde canlıda olacak.
+              - generic [ref=f23e175]: Harika, teşekkürler!
+        - generic [ref=f23e176]:
+          - generic [ref=f23e177]: 7/24 · Her Zaman Yanınızda
+          - paragraph [ref=f23e179]: Siz uyurken bile çalışır.
+      - generic [ref=f23e182]:
+        - generic [ref=f23e183]:
+          - text: Neden Biz
+          - heading "Tedarikçi Değil. Ortağınız." [level=2] [ref=f23e184]:
+            - text: Tedarikçi Değil.
+            - text: Ortağınız.
+          - paragraph [ref=f23e185]: Bazıları sadece iş teslim eder. Biz sonuç üretiriz. Düşünür, tasarlar, geliştirir ve sürdürürüz — siz işinizi büyütmeye odaklanın.
+          - generic [ref=f23e186]:
+            - generic [ref=f23e187]:
+              - generic [ref=f23e188]: Teknoloji_Yığını
+              - generic [ref=f23e189]: Aktif
+            - generic [ref=f23e191]:
+              - generic [ref=f23e192]:
+                - img "CHATGPT" [ref=f23e193]
+                - generic [ref=f23e194]:
+                  - generic [ref=f23e195]: CHATGPT
+                  - generic [ref=f23e196]: Aktif
+              - generic [ref=f23e198]:
+                - img "CLAUDE" [ref=f23e199]
+                - generic [ref=f23e200]:
+                  - generic [ref=f23e201]: CLAUDE
+                  - generic [ref=f23e202]: Aktif
+              - generic [ref=f23e204]:
+                - img "PERPLEXITY" [ref=f23e205]
+                - generic [ref=f23e206]:
+                  - generic [ref=f23e207]: PERPLEXITY
+                  - generic [ref=f23e208]: Aktif
+              - generic [ref=f23e210]:
+                - img "GEMINI" [ref=f23e211]
+                - generic [ref=f23e212]:
+                  - generic [ref=f23e213]: GEMINI
+                  - generic [ref=f23e214]: Aktif
+        - generic [ref=f23e216]:
+          - generic [ref=f23e217]:
+            - generic [ref=f23e218]: (01)
+            - heading "7 Farklı Tedarikçiyle Uğraşmayın" [level=3] [ref=f23e219]
+            - paragraph [ref=f23e220]: Tasarım için bir ajans, geliştirme için freelancer, altyapı için bir başkası. Koordinasyon işin kendisinden uzun sürüyor. Biz tüm süreci üstleniyoruz — tasarlar, geliştirir, dağıtır ve sürdürürüz. Tek ekip. Uçtan uca.
+            - generic [ref=f23e221]: TEK EKİP. TÜM SÜREÇ.
+          - generic [ref=f23e222]:
+            - generic [ref=f23e223]: (02)
+            - heading "Sizi ve İşinizi Tanır" [level=3] [ref=f23e224]
+            - paragraph [ref=f23e225]: Ekibimiz markanızı, kullanıcılarınızı ve iş hedeflerinizi öğrenir. Neyin işe yaradığını hatırlar. Her sürüm daha keskin olur. Ürününüz, sektörünüzü gerçekten anlayan bir ekibin elinden çıkar — herhangi bir tedarikçiden çok daha yakından.
+            - generic [ref=f23e226]: HER HAFTA DAHA İYİ.
+          - generic [ref=f23e227]:
+            - generic [ref=f23e228]: (03)
+            - heading "Teslimden Sonra da Yanınızda" [level=3] [ref=f23e229]
+            - paragraph [ref=f23e230]: Gece bir hata mı çıktı? Fark etmeden müdahale ettik. Trafik mi arttı? Altyapı otomatik ölçeklendi. Yeni bir özellik mi lazım? Sürüm planında. Yangın söndürmeyle değil, bir özetle uyanırsınız.
+            - generic [ref=f23e231]: 7/24 İZLEME. SIFIR PANİK.
+          - generic [ref=f23e232]:
+            - generic [ref=f23e233]: (04)
+            - heading "Her Platform. Tek Ekip." [level=3] [ref=f23e234]
+            - paragraph [ref=f23e235]: Kullanıcılarınız web'de, mobilde ve giderek yapay zekâ üzerinden size ulaşıyor. Biz hepsini kapsarız — web uygulamaları, native mobil, AI entegrasyonları ve bulut altyapısı. Müşterilerinizin olduğu her yerde var olun.
+            - generic [ref=f23e236]: WEB + MOBİL + AI. TEK EKİP.
+      - generic [ref=f23e239]:
+        - generic [ref=f23e240]: Rakamlarla Biz
+        - heading "İşimiz Kendini Kanıtlar." [level=2] [ref=f23e242]
+        - paragraph [ref=f23e243]: Aşağıdaki her rakam gerçek işlerden geliyor. Vaat değil, teslim. Lafı değil, çalışan ürünü konuşuruz.
+    - contentinfo [ref=f23e244]:
+      - generic [ref=f23e245]:
+        - generic [ref=f23e246]:
+          - generic [ref=f23e247]:
+            - img "AppIQ Development" [ref=f23e248]
+            - generic [ref=f23e249]: AppIQ
+          - generic [ref=f23e250]:
+            - generic [ref=f23e251]: Projeniz mi var?
+            - link "Hadi Konuşalım" [ref=f23e252]:
+              - /url: /iletisim
+        - generic [ref=f23e253]:
+          - generic [ref=f23e254]:
+            - generic [ref=f23e255]: Hizmetler
+            - list [ref=f23e256]:
+              - listitem [ref=f23e257]:
+                - link "Web" [ref=f23e258]:
+                  - /url: /hizmetler
+              - listitem [ref=f23e259]:
+                - link "Mobil" [ref=f23e260]:
+                  - /url: /hizmetler
+              - listitem [ref=f23e261]:
+                - link "Yapay Zeka" [ref=f23e262]:
+                  - /url: /hizmetler
+              - listitem [ref=f23e263]:
+                - link "Tasarım" [ref=f23e264]:
+                  - /url: /hizmetler
+          - generic [ref=f23e265]:
+            - generic [ref=f23e266]: Sosyal
+            - list [ref=f23e267]:
+              - listitem [ref=f23e268]:
+                - link "Instagram" [ref=f23e269]:
+                  - /url: "#"
+              - listitem [ref=f23e270]:
+                - link "LinkedIn" [ref=f23e271]:
+                  - /url: "#"
+          - generic [ref=f23e272]:
+            - generic [ref=f23e273]: Yasal
+            - list [ref=f23e274]:
+              - listitem [ref=f23e275]:
+                - link "Gizlilik" [ref=f23e276]:
+                  - /url: /gizlilik
+              - listitem [ref=f23e277]:
+                - link "İletişim" [ref=f23e278]:
+                  - /url: /iletisim
+        - generic [ref=f23e279]:
+          - generic [ref=f23e280]: © 2026 AppIQ Development. Tüm hakları saklıdır.
+          - generic [ref=f23e281]: Sevgiyle kodlandı
+  - button "Open Next.js Dev Tools" [ref=f23e287] [cursor=pointer]:
+    - img [ref=f23e288]
+  - alert [ref=f23e291]

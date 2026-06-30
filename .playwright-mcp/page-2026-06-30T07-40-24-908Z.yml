@@ -1,0 +1,114 @@
+- generic [active] [ref=f16e1]:
+  - generic [ref=f16e2]:
+    - navigation [ref=f16e3]:
+      - generic [ref=f16e4]:
+        - link "AppIQ Development AppIQ" [ref=f16e5] [cursor=pointer]:
+          - /url: /
+          - img "AppIQ Development" [ref=f16e6]
+          - generic [ref=f16e7]: AppIQ
+        - generic [ref=f16e8]:
+          - link "ANASAYFA" [ref=f16e9] [cursor=pointer]:
+            - /url: /
+          - link "HİZMETLER" [ref=f16e10] [cursor=pointer]:
+            - /url: /hizmetler
+          - link "HAKKIMIZDA" [ref=f16e11] [cursor=pointer]:
+            - /url: /hakkimizda
+          - link "İLETİŞİM" [ref=f16e12] [cursor=pointer]:
+            - /url: /iletisim
+        - link "TEKLİF AL" [ref=f16e14] [cursor=pointer]:
+          - /url: /iletisim
+    - main [ref=f16e15]:
+      - generic [ref=f16e18]:
+        - text: Yasal
+        - heading "Gizlilik Politikası" [level=1] [ref=f16e19]
+        - paragraph [ref=f16e20]: "Son güncelleme: 30 Haziran 2026"
+      - generic [ref=f16e22]:
+        - paragraph [ref=f16e23]: AppIQ Development olarak gizliliğinize önem veriyoruz. Bu politika, kişisel verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.
+        - generic [ref=f16e24]:
+          - generic [ref=f16e25]:
+            - generic [ref=f16e26]:
+              - generic [ref=f16e27]: "01"
+              - heading "Topladığımız Veriler" [level=2] [ref=f16e28]
+            - generic [ref=f16e29]:
+              - paragraph [ref=f16e30]: Bu bölüm, ziyaretçilerimizden ve müşterilerimizden hangi tür kişisel verileri topladığımızı açıklar. İletişim formu üzerinden paylaştığınız ad, e-posta ve mesaj içeriği bunlara dahildir.
+              - paragraph [ref=f16e31]: Bu bir yer tutucu metindir. Nihai gizlilik politikası metniniz hazır olduğunda bu içeriği değiştireceğiz.
+          - generic [ref=f16e32]:
+            - generic [ref=f16e33]:
+              - generic [ref=f16e34]: "02"
+              - heading "Verileri Nasıl Kullanıyoruz" [level=2] [ref=f16e35]
+            - paragraph [ref=f16e37]: Topladığımız verileri yalnızca size hizmet sunmak, taleplerinizi yanıtlamak ve hizmet kalitemizi iyileştirmek için kullanırız. Verileriniz izniniz olmadan üçüncü taraflarla paylaşılmaz.
+          - generic [ref=f16e38]:
+            - generic [ref=f16e39]:
+              - generic [ref=f16e40]: "03"
+              - heading "Çerezler" [level=2] [ref=f16e41]
+            - paragraph [ref=f16e43]: Web sitemiz, deneyiminizi iyileştirmek ve trafiği analiz etmek için çerezler kullanabilir. Tarayıcı ayarlarınızdan çerezleri yönetebilir veya devre dışı bırakabilirsiniz.
+          - generic [ref=f16e44]:
+            - generic [ref=f16e45]:
+              - generic [ref=f16e46]: "04"
+              - heading "Üçüncü Taraf Hizmetleri" [level=2] [ref=f16e47]
+            - paragraph [ref=f16e49]: Analitik, barındırma ve e-posta gibi alanlarda üçüncü taraf sağlayıcılarla çalışabiliriz. Bu sağlayıcılar yalnızca hizmeti sunmak için gereken verilere erişir.
+          - generic [ref=f16e50]:
+            - generic [ref=f16e51]:
+              - generic [ref=f16e52]: "05"
+              - heading "Veri Güvenliği" [level=2] [ref=f16e53]
+            - paragraph [ref=f16e55]: Kişisel verilerinizi yetkisiz erişime, değiştirilmeye ve ifşaya karşı korumak için endüstri standardı güvenlik önlemleri uygularız.
+          - generic [ref=f16e56]:
+            - generic [ref=f16e57]:
+              - generic [ref=f16e58]: "06"
+              - heading "Haklarınız" [level=2] [ref=f16e59]
+            - paragraph [ref=f16e61]: Kişisel verilerinize erişme, düzeltilmesini veya silinmesini talep etme hakkına sahipsiniz. Bu haklarınızı kullanmak için bizimle iletişime geçebilirsiniz.
+          - generic [ref=f16e62]:
+            - generic [ref=f16e63]:
+              - generic [ref=f16e64]: "07"
+              - heading "İletişim" [level=2] [ref=f16e65]
+            - paragraph [ref=f16e67]: Gizlilik politikamızla ilgili sorularınız için bizimle iletişim sayfamız üzerinden veya doğrudan e-posta yoluyla iletişime geçebilirsiniz.
+    - contentinfo [ref=f16e68]:
+      - generic [ref=f16e69]:
+        - generic [ref=f16e70]:
+          - generic [ref=f16e71]:
+            - img "AppIQ Development" [ref=f16e72]
+            - generic [ref=f16e73]: AppIQ
+          - generic [ref=f16e74]:
+            - generic [ref=f16e75]: Projeniz mi var?
+            - link "Hadi Konuşalım" [ref=f16e76] [cursor=pointer]:
+              - /url: /iletisim
+        - generic [ref=f16e77]:
+          - generic [ref=f16e78]:
+            - generic [ref=f16e79]: Hizmetler
+            - list [ref=f16e80]:
+              - listitem [ref=f16e81]:
+                - link "Web" [ref=f16e82] [cursor=pointer]:
+                  - /url: /hizmetler
+              - listitem [ref=f16e83]:
+                - link "Mobil" [ref=f16e84] [cursor=pointer]:
+                  - /url: /hizmetler
+              - listitem [ref=f16e85]:
+                - link "Yapay Zeka" [ref=f16e86] [cursor=pointer]:
+                  - /url: /hizmetler
+              - listitem [ref=f16e87]:
+                - link "Tasarım" [ref=f16e88] [cursor=pointer]:
+                  - /url: /hizmetler
+          - generic [ref=f16e89]:
+            - generic [ref=f16e90]: Sosyal
+            - list [ref=f16e91]:
+              - listitem [ref=f16e92]:
+                - link "Instagram" [ref=f16e93] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f16e94]:
+                - link "LinkedIn" [ref=f16e95] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f16e96]:
+            - generic [ref=f16e97]: Yasal
+            - list [ref=f16e98]:
+              - listitem [ref=f16e99]:
+                - link "Gizlilik" [ref=f16e100] [cursor=pointer]:
+                  - /url: /gizlilik
+              - listitem [ref=f16e101]:
+                - link "İletişim" [ref=f16e102] [cursor=pointer]:
+                  - /url: /iletisim
+        - generic [ref=f16e103]:
+          - generic [ref=f16e104]: © 2026 AppIQ Development. Tüm hakları saklıdır.
+          - generic [ref=f16e105]: Sevgiyle kodlandı
+  - button "Open Next.js Dev Tools" [ref=f16e111] [cursor=pointer]:
+    - img [ref=f16e112]
+  - alert [ref=f16e115]

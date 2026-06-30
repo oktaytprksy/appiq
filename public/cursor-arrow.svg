@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <!-- sleek dart: tip top-left, right point, bottom tail, concave back edge -->
+  <path d="M5 3.5
+           L28.5 16.5
+           Q23 18 19.5 19.5
+           L16 30
+           Q15.2 31.4 13.9 30.6
+           Q12.5 29.6 5 3.5 Z"
+        fill="#FFFFFF" stroke="#2e0a52" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- subtle purple gloss along the leading edge -->
+  <path d="M7.6 7 L24 16 Q20 17.2 17.6 18.4 L15.4 24.5 Z"
+        fill="#7916c4" opacity="0.35"/>
+</svg>

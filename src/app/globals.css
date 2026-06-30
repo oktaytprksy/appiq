@@ -128,3 +128,37 @@
     @apply font-sans;
   }
 }
+
+/* branded purple cursor (hotspot at arrow tip) */
+html,
+body {
+  cursor: url("/cursor-arrow.svg") 5 4, auto;
+}
+a,
+button,
+select,
+summary,
+label[for],
+[role="button"],
+.cursor-pointer {
+  cursor: url("/cursor-pointer.svg") 13 3, pointer;
+}
+/* keep text affordance on text fields */
+input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
+textarea {
+  cursor: text;
+}
+
+/* faint square grid behind hero sections */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.bg-grid-dark {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}

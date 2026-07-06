@@ -40,7 +40,7 @@ const STACK = [
   ["Mobil", ["React Native", "Flutter", "Swift", "Kotlin"]],
   ["Yapay Zeka", ["OpenAI", "Anthropic", "PyTorch", "LangChain", "RAG"]],
   ["Bulut & DevOps", ["AWS", "GCP", "Docker", "Kubernetes", "Terraform"]],
-  ["Tasarım", ["Figma", "Design Systems", "Prototyping"]],
+  ["Güvenlik & Otomasyon", ["Pentest", "SIEM", "OWASP", "n8n", "Zabbix", "Danışmanlık"]],
 ] as const;
 
 const PROCESS = [

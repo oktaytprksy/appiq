@@ -10,7 +10,7 @@ const SERVICES = [
   "Web Uygulaması",
   "Mobil Uygulama",
   "Yapay Zeka Çözümü",
-  "Ürün & Arayüz Tasarımı",
+  "Siber Güvenlik & Otomasyon",
   "Bulut & DevOps",
   "Diğer",
 ];
@@ -86,9 +86,23 @@ function Select({
   );
 }
 
+// "0 (5xx) xxx xx xx" maskesi — sadece rakam, en fazla 11 hane.
+function formatPhone(raw: string) {
+  const d = raw.replace(/\D/g, "").slice(0, 11);
+  if (!d) return "";
+  let out = d[0];
+  if (d.length > 1) out += " (" + d.slice(1, 4);
+  if (d.length >= 4) out += ")";
+  if (d.length > 4) out += " " + d.slice(4, 7);
+  if (d.length > 7) out += " " + d.slice(7, 9);
+  if (d.length > 9) out += " " + d.slice(9, 11);
+  return out;
+}
+
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
   const [service, setService] = useState("");
+  const [phone, setPhone] = useState("");
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -96,7 +110,6 @@ export default function ContactForm() {
     const name = (f.get("name") as string)?.trim();
     const email = (f.get("email") as string)?.trim();
     const company = (f.get("company") as string)?.trim();
-    const phone = (f.get("phone") as string)?.trim();
     const message = (f.get("message") as string)?.trim();
 
     const subject = `Yeni proje talebi — ${name}${service ? ` (${service})` : ""}`;
@@ -137,6 +150,8 @@ export default function ContactForm() {
             name="email"
             type="email"
             required
+            pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+            title="Geçerli bir e-posta adresi girin (ornek@firma.com)."
             className={inputCls}
             placeholder="ornek@firma.com"
           />
@@ -163,6 +178,11 @@ export default function ContactForm() {
             id="phone"
             name="phone"
             type="tel"
+            inputMode="numeric"
+            value={phone}
+            onChange={(e) => setPhone(formatPhone(e.target.value))}
+            pattern="0 \([0-9]{3}\) [0-9]{3} [0-9]{2} [0-9]{2}"
+            title="Telefonu tam girin: 0 (5xx) xxx xx xx"
             className={inputCls}
             placeholder="0 (5xx) xxx xx xx"
           />

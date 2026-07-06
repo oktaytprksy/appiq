@@ -97,16 +97,16 @@ const FEATURES: Feature[] = [
   },
   {
     no: "/04",
-    kicker: "ÜRÜN & ARAYÜZ TASARIMI",
-    verb: "TASARIM",
-    body: "Kullanıcı araştırması, akış tasarımı, prototipleme ve tasarım sistemi. Sadece güzel değil; dönüşüm getiren, kullanması kolay arayüzler tasarlıyoruz.",
+    kicker: "SİBER GÜVENLİK & OTOMASYON",
+    verb: "GÜVENLİK",
+    body: "Sızma testleri, güvenlik denetimi ve tehdit izleme ile sistemlerinizi koruyoruz. İş akışlarınızı uçtan uca otomatikleştirip tekrar eden işleri ortadan kaldırıyoruz.",
     mock: (
       <>
-        <Row k="UX" v="Kullanıcı akışları" status="Onaylandı" tone={OK} />
-        <Row k="UI" v="Tasarım sistemi" status="Hazır" tone={OK} />
-        <Row k="Prototip" v="Figma → kod" status="Devam ediyor" tone={PENDING} />
+        <Row k="Denetim" v="Sızma testi & zafiyet taraması" status="Tamamlandı" tone={OK} />
+        <Row k="İzleme" v="7/24 tehdit tespiti" status="Aktif" tone={OK} />
+        <Row k="Otomasyon" v="Süreç & entegrasyon akışları" status="Çalışıyor" tone={OK} />
         <div className="mt-3 text-[10px] uppercase tracking-wider text-[#a06bff]">
-          Dönüşümde +%34 artış
+          Manuel işlerde −%60 azalma
         </div>
       </>
     ),

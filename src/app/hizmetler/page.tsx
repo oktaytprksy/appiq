@@ -8,7 +8,7 @@ import Projects from "@/components/Projects";
 export const metadata: Metadata = {
   title: "Hizmetler — Web, Mobil, Yapay Zeka | AppIQ Development",
   description:
-    "Web ve mobil uygulama geliştirme, yapay zeka çözümleri, ürün tasarımı ve bulut altyapısı. Geliştirdiğimiz seçili projeleri inceleyin.",
+    "Web ve mobil uygulama geliştirme, yapay zeka çözümleri, siber güvenlik & otomasyon ve bulut altyapısı. Geliştirdiğimiz seçili projeleri inceleyin.",
 };
 
 const SERVICES = [
@@ -32,9 +32,9 @@ const SERVICES = [
   },
   {
     no: "04",
-    title: "Ürün & Arayüz Tasarımı",
-    desc: "Kullanıcı araştırması, akış tasarımı, prototipleme ve tasarım sistemi. Dönüşüm getiren arayüzler.",
-    tags: ["UX", "UI", "Design System"],
+    title: "Siber Güvenlik & Otomasyon",
+    desc: "Sızma testleri, güvenlik denetimi ve 7/24 tehdit izleme. İş akışlarını uçtan uca otomatikleştirip tekrar eden işleri ortadan kaldırıyoruz.",
+    tags: ["Pentest", "Tehdit İzleme", "Otomasyon"],
   },
   {
     no: "05",
@@ -59,7 +59,7 @@ export default function HizmetlerPage() {
           kicker="Ne Yapıyoruz"
           title="Hizmetler"
           titleClass="text-[clamp(3rem,10vw,7rem)]"
-          subtitle="Fikirden canlı ürüne kadar her şey. Web, mobil, yapay zeka, tasarım ve altyapı — tek ekip, uçtan uca çözüm."
+          subtitle="Fikirden canlı ürüne kadar her şey. Web, mobil, yapay zeka, siber güvenlik ve altyapı — tek ekip, uçtan uca çözüm."
         />
 
         {/* Hizmet kartları */}

@@ -10,7 +10,7 @@ const COLUMNS: { title: string; items: LinkItem[] }[] = [
       { label: "Web", href: "/hizmetler" },
       { label: "Mobil", href: "/hizmetler" },
       { label: "Yapay Zeka", href: "/hizmetler" },
-      { label: "Tasarım", href: "/hizmetler" },
+      { label: "Güvenlik", href: "/hizmetler" },
     ],
   },
   {

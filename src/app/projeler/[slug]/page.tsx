@@ -24,23 +24,6 @@ export async function generateMetadata({
   };
 }
 
-// ponytail: detail content is shared placeholder per project (no backend / no CMS yet).
-// Swap these constants for real per-project copy when content exists.
-const META = [
-  ["Müşteri", "Gizli (NDA)"],
-  ["Süre", "4 ay"],
-  ["Rol", "Tasarım & Geliştirme"],
-];
-
-const OVERVIEW =
-  "Projeye keşif aşamasıyla başladık: hedefleri, kullanıcıları ve teknik kısıtları netleştirdik. Ardından tıklanabilir prototipten üretime kadar kısa döngülerle ilerledik. Sonuçta hızlı, ölçeklenebilir ve bakımı kolay bir ürün teslim ettik.";
-
-const CHALLENGE =
-  "Mevcut süreç dağınıktı; birden fazla araç, manuel adımlar ve ölçeklenmeyen bir altyapı vardı. Ekibin asıl işine odaklanması için tüm akışı tek bir üründe toplamak gerekiyordu.";
-
-const SOLUTION =
-  "Modüler bir mimari kurduk, kritik akışları otomatikleştirdik ve performansı baştan önceliklendirdik. Tasarım sistemi sayesinde arayüz tutarlı, geliştirme hızlı ve sonraki sürümler öngörülebilir oldu.";
-
 const FEATURES = [
   ["Uçtan Uca Akış", "Kullanıcı yolculuğunun tamamı tek üründe, kesintisiz."],
   ["Gerçek Zamanlı Veri", "Anlık güncellemeler ve canlı durum takibi."],
@@ -94,30 +77,16 @@ export default async function ProjeDetay({
         {/* Title + meta */}
         <section className="bg-white py-16 text-black lg:py-20">
           <div className="mx-auto max-w-6xl px-6 lg:px-12">
-            <div className="grid gap-10 lg:grid-cols-12">
-              <div className="lg:col-span-7">
-                <span className="text-[11px] font-bold uppercase tracking-[0.25em] text-[#6400FF]">
-                  {project.category}
-                </span>
-                <h1 className="mt-4 text-5xl font-black uppercase leading-[0.9] tracking-tight lg:text-7xl">
-                  {project.title}
-                </h1>
-                <p className="mt-6 max-w-xl text-lg leading-relaxed text-black/70">
-                  {project.desc}
-                </p>
-              </div>
-              <div className="lg:col-span-5">
-                <div className="grid grid-cols-2 gap-px border border-black/10 bg-black/10">
-                  {[...META, ["Yıl", project.year]].map(([k, v]) => (
-                    <div key={k} className="bg-white p-5">
-                      <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-black/40">
-                        {k}
-                      </div>
-                      <div className="mt-1.5 text-sm font-semibold">{v}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
+            <div className="max-w-3xl">
+              <span className="text-[11px] font-bold uppercase tracking-[0.25em] text-[#6400FF]">
+                {project.category} · {project.year}
+              </span>
+              <h1 className="mt-4 text-5xl font-black uppercase leading-[0.9] tracking-tight lg:text-7xl">
+                {project.title}
+              </h1>
+              <p className="mt-6 text-lg leading-relaxed text-black/70">
+                {project.desc}
+              </p>
             </div>
           </div>
         </section>
@@ -129,7 +98,7 @@ export default async function ProjeDetay({
               Genel Bakış
             </h2>
             <p className="text-lg leading-relaxed text-black/70 lg:col-span-8">
-              {OVERVIEW}
+              {project.overview}
             </p>
           </div>
         </section>
@@ -142,7 +111,7 @@ export default async function ProjeDetay({
                 Zorluk
               </h2>
               <p className="mt-5 text-base leading-relaxed text-white/70">
-                {CHALLENGE}
+                {project.challenge}
               </p>
             </div>
             <div>
@@ -150,7 +119,7 @@ export default async function ProjeDetay({
                 Çözüm
               </h2>
               <p className="mt-5 text-base leading-relaxed text-white/70">
-                {SOLUTION}
+                {project.solution}
               </p>
             </div>
           </div>

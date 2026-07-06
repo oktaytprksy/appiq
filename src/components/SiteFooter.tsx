@@ -16,7 +16,7 @@ const COLUMNS: { title: string; items: LinkItem[] }[] = [
   {
     title: "Sosyal",
     items: [
-      { label: "Instagram", href: "#", external: true },
+      { label: "Instagram", href: "https://www.instagram.com/appiq.development/", external: true },
       { label: "LinkedIn", href: "#", external: true },
     ],
   },
@@ -104,7 +104,6 @@ export default function SiteFooter() {
           <span>
             © {new Date().getFullYear()} AppIQ Development. Tüm hakları saklıdır.
           </span>
-          <span className="uppercase tracking-[0.2em]">Sevgiyle kodlandı</span>
         </div>
       </div>
     </footer>

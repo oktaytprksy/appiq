@@ -15,14 +15,6 @@ const SERVICES = [
   "Diğer",
 ];
 
-const BUDGETS = [
-  "100.000 ₺ altı",
-  "100.000 – 250.000 ₺",
-  "250.000 – 500.000 ₺",
-  "500.000 ₺ üzeri",
-  "Henüz belirsiz",
-];
-
 const inputCls =
   "w-full border border-black/15 bg-white px-4 py-3 text-sm text-black outline-none transition-colors placeholder:text-black/35 focus:border-[#6400FF]";
 const labelCls =
@@ -97,7 +89,6 @@ function Select({
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
   const [service, setService] = useState("");
-  const [budget, setBudget] = useState("");
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -105,6 +96,7 @@ export default function ContactForm() {
     const name = (f.get("name") as string)?.trim();
     const email = (f.get("email") as string)?.trim();
     const company = (f.get("company") as string)?.trim();
+    const phone = (f.get("phone") as string)?.trim();
     const message = (f.get("message") as string)?.trim();
 
     const subject = `Yeni proje talebi — ${name}${service ? ` (${service})` : ""}`;
@@ -112,8 +104,8 @@ export default function ContactForm() {
       `Ad: ${name}`,
       `E-posta: ${email}`,
       company ? `Şirket: ${company}` : null,
+      phone ? `Telefon: ${phone}` : null,
       service ? `Hizmet: ${service}` : null,
-      budget ? `Bütçe: ${budget}` : null,
       "",
       "Mesaj:",
       message,
@@ -164,8 +156,16 @@ export default function ContactForm() {
           <Select value={service} onChange={setService} options={SERVICES} />
         </div>
         <div>
-          <span className={labelCls}>Bütçe</span>
-          <Select value={budget} onChange={setBudget} options={BUDGETS} />
+          <label htmlFor="phone" className={labelCls}>
+            Telefon
+          </label>
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            className={inputCls}
+            placeholder="0 (5xx) xxx xx xx"
+          />
         </div>
       </div>
 
